@@ -1,6 +1,6 @@
 import requests,re
 
-
+cookie=''
 
 url='https://mooc1.chaoxing.com/work/selectWorkQuestionYiPiYue?courseId=227254957&workId=21782958&workAnswerId=51523740&api=1&knowledgeid=621879924&classId=61848098&oldWorkId=61b229d30442400c8dbcf1ec20a2c33d&jobid=work-61b229d30442400c8dbcf1ec20a2c33d&type=&isphone=false&submit=false&enc=15df5e74c0c2f067e828035b8d60aa26&cpi=171632656'
 
@@ -10,7 +10,7 @@ headers={
 	"Accept-Language": "zh-CN,zh;q=0.9",
 	"Cache-Control": "no-cache",
 	"Connection": "keep-alive",
-	"Cookie": "k8s=ce48016bd48a1133f3361f8c8850612b90f0af6f; route=1ab934bb3bbdaaef56ce3b0da45c52ed; source=\"\"; lv=2; fid=2322; _uid=62344227; uf=da0883eb5260151ed0e6b313eef9e6d6af18e3ade52b01cdacd6cb2d5e04b5a9ced162a04da0f153950650979b36c843c49d67c0c30ca5047c5a963e85f110991f5ef0b3e62067f5ce71fc6e59483dd3f69ef4b99e86e7c73bb92551d2c298de2adea3c5d6bae2c8; _d=1664472767285; UID=62344227; vc=7165AFB4103CCEDE03AFBC41AD25538F; vc2=3E6BEC3A858E7FAC6192C6660B62C7A7; vc3=WXn8%2FyD93sZPuWw4PhwRrNhNo3H%2B8jpUjNPNAVOMPEL3j%2F2S1Zlg2UGTuS19d0gjb4rx6jasKIEUwQqGDpBZvaBCpyKJbmJQ2VF21EBZwT2rhOqGq1rapS1eEKmZufszXTqkSoloP3rBIaOFvoZD%2F4qppfU7f2kwb%2F1KJSkjon8%3D33295492d6e661d1c188447e5f2b5c2b; xxtenc=a2086b78a5afc3684d540f46c5a6ea54; DSSTASH_LOG=C_43-UN_941-US_62344227-T_1664472767286; spaceFid=2322; spaceRoleId=\"\"; thirdRegist=0; jrose=8D8DC24C1FB9C97F1978DE9EB153EC53.mooc-1820963910-qw8ts",
+	"Cookie": cookie,
 	"Host": "mooc1.chaoxing.com",
 	"Pragma": "no-cache",
 	"Referer": "https://mooc1.chaoxing.com/ananas/modules/work/index.html?v=2022-0714-1515&castscreen=0",
@@ -41,7 +41,7 @@ headers={
 	"Connection": "keep-alive",
 	"Content-Length": "327",
 	"Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-	"Cookie": "k8s=87f03d0bf9bb9989b8e1fd887f48bae2967dbda7; route=6c7e83002ce2cc0e78a680d806381539; source=\"\"; lv=2; fid=2322; _uid=62344227; uf=da0883eb5260151ed0e6b313eef9e6d6af18e3ade52b01cdacd6cb2d5e04b5a9ced162a04da0f153950650979b36c843c49d67c0c30ca5047c5a963e85f110991f5ef0b3e62067f5ce71fc6e59483dd3f69ef4b99e86e7c73bb92551d2c298de2adea3c5d6bae2c8; _d=1664472767285; UID=62344227; vc=7165AFB4103CCEDE03AFBC41AD25538F; vc2=3E6BEC3A858E7FAC6192C6660B62C7A7; vc3=WXn8%2FyD93sZPuWw4PhwRrNhNo3H%2B8jpUjNPNAVOMPEL3j%2F2S1Zlg2UGTuS19d0gjb4rx6jasKIEUwQqGDpBZvaBCpyKJbmJQ2VF21EBZwT2rhOqGq1rapS1eEKmZufszXTqkSoloP3rBIaOFvoZD%2F4qppfU7f2kwb%2F1KJSkjon8%3D33295492d6e661d1c188447e5f2b5c2b; xxtenc=a2086b78a5afc3684d540f46c5a6ea54; DSSTASH_LOG=C_43-UN_941-US_62344227-T_1664472767286; spaceFid=2322; spaceRoleId=\"\"; jrose=A076D26846863AE99D6AD9201A7FA7B2.mooc-1820963910-kcvdz; thirdRegist=0",
+	"Cookie": cookie,
 	"Host": "mooc1-2.chaoxing.com",
 	"Origin": "https://mooc1-2.chaoxing.com",
 	"Pragma": "no-cache",
